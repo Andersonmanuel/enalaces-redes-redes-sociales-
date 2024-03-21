@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset de elementos específicos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, figure, figcaption, blockquote, pre, form, fieldset, legend, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: black;
+}
+
+/* Añadir estilos personalizados a partir de aquí */
+
+/*card*/
+main {
+    width: 350px;
+    height:  auto;
+    background-color: #1f1f1f;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 15px;
+}
+/*foto de perfil*/
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+/*textos*/
+.text-1 {
+    color: white;
+}
+
+.text-2 {
+    color: #bbf827;
+}
+
+.text-3 {
+    color: white;
+    padding-top: 6%;
+}
+/*link*/
+.link {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.enlaces {
+    width: 95%;
+    height: 40px;
+    background-color: #333333;
+    margin: auto;
+    margin-top: 6%;
+    padding-top: 3%;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 5px;
+}
+
+/*pie de pagina*/
+.attribution {
+    margin-top: 3%;
+    color: white;
+    font-size: 1rem;
+}
